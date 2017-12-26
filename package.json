@@ -1,7 +1,7 @@
 {
-  "name": "@protacon/ng-virtual-keyboard",
+  "name": "@yazeed/ng-virtual-keyboard-updated-material",
   "version": "0.6.0",
-  "description": "Virtual Keyboard for Angular applications",
+  "description": "Virtual Keyboard for Angular 2 applications with updated material",
   "main": "dist/ng-virtual-keyboard.umd.js",
   "module": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -17,17 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/protacon/ng-virtual-keyboard.git"
+    "url": "https://github.com/YazeedShaker/ng-virtual-keyboard.git"
   },
   "keywords": [
     "Angular"
   ],
   "author": "Protacon",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/protacon/ng-virtual-keyboard/issues"
-  },
-  "homepage": "https://github.com/protacon/ng-virtual-keyboard#readme",
+  "homepage": "https://github.com/YazeedShaker/ng-virtual-keyboard.git",
   "prefer-stable": true,
   "dependencies": {
     "@angular/animations": "^4.0.2",
