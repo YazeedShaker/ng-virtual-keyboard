@@ -1,5 +1,5 @@
 {
-  "name": "@yazeed/ng-virtual-keyboard-updated-material",
+  "name": "@yazeed/ng-virtual-keyboard",
   "version": "0.6.0",
   "description": "Virtual Keyboard for Angular 2 applications with updated material",
   "main": "dist/ng-virtual-keyboard.umd.js",
