@@ -1,5 +1,5 @@
 import { ElementRef } from '@angular/core';
-import { MdDialog } from '@angular/material';
+import { MatDialog } from '@angular/material';
 import { KeyboardLayout } from './layouts';
 export declare class NgVirtualKeyboardDirective {
     private element;
@@ -18,7 +18,7 @@ export declare class NgVirtualKeyboardDirective {
      * @param {ElementRef}  element
      * @param {MdDialog}    dialog
      */
-    constructor(element: ElementRef, dialog: MdDialog);
+    constructor(element: ElementRef, dialog: MatDialog);
     /**
      * Method to open virtual keyboard
      */

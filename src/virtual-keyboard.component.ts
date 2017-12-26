@@ -1,5 +1,5 @@
 import { Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
-import { MdDialogRef } from '@angular/material';
+import { MatDialogRef } from '@angular/material';
 
 import { keyboardCapsLockLayout, KeyboardLayout } from './layouts';
 import { VirtualKeyboardService } from './virtual-keyboard.service';
@@ -111,7 +111,7 @@ export class VirtualKeyboardComponent implements OnInit, OnDestroy {
    * @param {VirtualKeyboardService}                virtualKeyboardService
    */
   public constructor(
-    public dialogRef: MdDialogRef<VirtualKeyboardComponent>,
+    public dialogRef: MatDialogRef<VirtualKeyboardComponent>,
     private virtualKeyboardService: VirtualKeyboardService
   ) { }
 
